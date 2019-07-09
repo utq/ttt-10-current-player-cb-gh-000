@@ -4,7 +4,6 @@ def turn_count(board)
     if item "X" or "O"
       round +=1
     end
-  return round
   end
 end
 
