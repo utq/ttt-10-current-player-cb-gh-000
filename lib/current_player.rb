@@ -3,6 +3,7 @@ def turn_count(board)
   board.each do |item|
     if item "X" or "O"
       round +=1
+    end
   return round
   end
 end
