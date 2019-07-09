@@ -1,7 +1,7 @@
 def turn_count(board)
   round = 0
-  board.each do |item|
-    if item "X" or "O"
+  board.each do |boarditem|
+    if boarditem "X" or "O"
       round +=1
     end
   end
